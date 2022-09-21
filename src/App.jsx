@@ -3,7 +3,7 @@ import Card from "./components/card";
 function App() {
   const [cards, setCards] = useState([
     {
-      imageSrc: "/src/assets/images/avatar-mark-webber.webp",
+      imageSrc: "/assets/images/avatar-mark-webber.webp",
       name: "Mark Webber",
       isRead: false,
       content: (
@@ -22,14 +22,14 @@ function App() {
       time: "1m",
     },
     {
-      imageSrc: "/src/assets/images/avatar-angela-gray.webp",
+      imageSrc: "/assets/images/avatar-angela-gray.webp",
       name: "Angela Gray",
       isRead: false,
       content: <span className="text-dark-grayish-blue">followed you</span>,
       time: "5m",
     },
     {
-      imageSrc: "/src/assets/images/avatar-jacob-thompson.webp",
+      imageSrc: "/assets/images/avatar-jacob-thompson.webp",
       name: "Jacob Thompson",
       isRead: false,
       content: (
@@ -43,7 +43,7 @@ function App() {
       time: "1day",
     },
     {
-      imageSrc: "/src/assets/images/avatar-rizky-hasanuddin.webp",
+      imageSrc: "/assets/images/avatar-rizky-hasanuddin.webp",
       name: "Rizky Hasanuddin",
       isRead: true,
       content: "sent you a private message",
@@ -52,15 +52,15 @@ function App() {
         "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
     },
     {
-      imageSrc: "/src/assets/images/avatar-kimberly-smith.webp",
+      imageSrc: "/assets/images/avatar-kimberly-smith.webp",
       name: "Kimberly Smith",
       isRead: true,
       content: "commented on your picture",
       time: "1week",
-      additionalImageSrc: "/src/assets/images/image-chess.webp",
+      additionalImageSrc: "/assets/images/image-chess.webp",
     },
     {
-      imageSrc: "/src/assets/images/avatar-nathan-peterson.webp",
+      imageSrc: "/assets/images/avatar-nathan-peterson.webp",
       name: "Nathan Peterson",
       isRead: true,
       content: (
@@ -77,7 +77,7 @@ function App() {
       time: "2weeks",
     },
     {
-      imageSrc: "/src/assets/images/avatar-anna-kim.webp",
+      imageSrc: "/assets/images/avatar-anna-kim.webp",
       name: "Anna Kim",
       isRead: true,
       content: (
