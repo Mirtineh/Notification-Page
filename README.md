@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/notifications-page-using-react-and-tailwind-eVhbLYmLDV
 - Live Site URL: https://mirtineh.github.io/Notification-Page/
 
 ## My process
