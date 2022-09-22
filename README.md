@@ -39,7 +39,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Mobile-first workflow
-- [Tailwind] (https://tailwindcss.com/) - utility-first CSS framework
+- [Tailwind](https://tailwindcss.com/) - utility-first CSS framework
 - [React](https://reactjs.org/) - JS library
 ## Author
 
