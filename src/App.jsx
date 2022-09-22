@@ -1,9 +1,17 @@
 import { Fragment, useEffect, useState } from "react";
+import markWebber from "./assets/images/avatar-mark-webber.webp";
+import angelaGray from "./assets/images/avatar-angela-gray.webp";
+import jacobThompson from "./assets/images/avatar-jacob-thompson.webp";
+import rizkyHasanuddin from "./assets/images/avatar-rizky-hasanuddin.webp";
+import kimberlySmith from "./assets/images/avatar-kimberly-smith.webp";
+import nathanPeterson from "./assets/images/avatar-nathan-peterson.webp";
+import annaKim from "./assets/images/avatar-anna-kim.webp";
+import chess from "./assets/images/image-chess.webp";
 import Card from "./components/card";
 function App() {
   const [cards, setCards] = useState([
     {
-      imageSrc: "/assets/images/avatar-mark-webber.webp",
+      imageSrc: markWebber,
       name: "Mark Webber",
       isRead: false,
       content: (
@@ -22,14 +30,14 @@ function App() {
       time: "1m",
     },
     {
-      imageSrc: "/assets/images/avatar-angela-gray.webp",
+      imageSrc: angelaGray,
       name: "Angela Gray",
       isRead: false,
       content: <span className="text-dark-grayish-blue">followed you</span>,
       time: "5m",
     },
     {
-      imageSrc: "/assets/images/avatar-jacob-thompson.webp",
+      imageSrc: jacobThompson,
       name: "Jacob Thompson",
       isRead: false,
       content: (
@@ -43,7 +51,7 @@ function App() {
       time: "1day",
     },
     {
-      imageSrc: "/assets/images/avatar-rizky-hasanuddin.webp",
+      imageSrc: rizkyHasanuddin,
       name: "Rizky Hasanuddin",
       isRead: true,
       content: "sent you a private message",
@@ -52,15 +60,15 @@ function App() {
         "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
     },
     {
-      imageSrc: "/assets/images/avatar-kimberly-smith.webp",
+      imageSrc: kimberlySmith,
       name: "Kimberly Smith",
       isRead: true,
       content: "commented on your picture",
       time: "1week",
-      additionalImageSrc: "/assets/images/image-chess.webp",
+      additionalImageSrc: chess,
     },
     {
-      imageSrc: "/assets/images/avatar-nathan-peterson.webp",
+      imageSrc: nathanPeterson,
       name: "Nathan Peterson",
       isRead: true,
       content: (
@@ -77,7 +85,7 @@ function App() {
       time: "2weeks",
     },
     {
-      imageSrc: "/assets/images/avatar-anna-kim.webp",
+      imageSrc: annaKim,
       name: "Anna Kim",
       isRead: true,
       content: (
