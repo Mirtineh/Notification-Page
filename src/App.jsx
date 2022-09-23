@@ -118,7 +118,7 @@ function App() {
     <div className="sm:max-w-screen-sm font-sans bg-white mx-auto sm:my-10 rounded-lg px-5 pt-7 pb-3">
       <div className="flex items-end space-x-2 justify-between mb-6">
         <div className="flex items-end space-x-2">
-          <div className="font-extrabold text-lg">Notifications</div>
+          <h1 className="font-extrabold text-lg">Notifications</h1>
           <div className="bg-blue text-white text-lg rounded-md px-2 ">
             {count}
           </div>
